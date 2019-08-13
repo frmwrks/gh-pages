@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  <id>urn:iweb:1AA425E9-CCEF-4AFA-A3E0-71E12E6A1808</id>
  <title>Page list Atom feed</title>
- <updated>2019-08-13T15:29:40-06:00</updated>
+ <updated>2019-08-13T17:43:14-06:00</updated>
  <link rel="self" href="feed.xml"/>
  <generator>iWeb</generator>
  <author>
@@ -14,7 +14,7 @@
   <title xmlns="urn:iweb:">Welcome</title>
   <in-navbar xmlns="urn:iweb:">04FF1FF1-5EAB-4563-BAAE-68A6B6A1452E</in-navbar>
   <link rel="alternate" href="Welcome.html"/>
-  <updated>2019-08-13T15:29:40.001-06:00</updated>
+  <updated>2019-08-13T17:43:14.001-06:00</updated>
   <content>Welcome</content>
  </entry>
  <entry>
@@ -23,7 +23,7 @@
   <title xmlns="urn:iweb:">Guidelines</title>
   <in-navbar xmlns="urn:iweb:">BA95C95E-EAAB-4184-A583-CCC104FF1A02</in-navbar>
   <link rel="alternate" href="Guidelines.html"/>
-  <updated>2019-08-13T15:29:40.002-06:00</updated>
+  <updated>2019-08-13T17:43:14.002-06:00</updated>
   <content>Guidelines</content>
  </entry>
  <entry>
@@ -32,7 +32,7 @@
   <title xmlns="urn:iweb:">PrivacyPolicy</title>
   <in-navbar xmlns="urn:iweb:">D3D46E8B-FE3D-4358-BBEE-EB752B7B7B92</in-navbar>
   <link rel="alternate" href="PrivacyPolicy.html"/>
-  <updated>2019-08-13T15:29:40.003-06:00</updated>
+  <updated>2019-08-13T17:43:14.003-06:00</updated>
   <content>PrivacyPolicy</content>
  </entry>
  <entry>
@@ -41,7 +41,7 @@
   <title xmlns="urn:iweb:">ContactUs</title>
   <in-navbar xmlns="urn:iweb:">42C53CA9-ECA9-4A4A-9C82-76BE7D29E440</in-navbar>
   <link rel="alternate" href="ContactUs.html"/>
-  <updated>2019-08-13T15:29:40.004-06:00</updated>
+  <updated>2019-08-13T17:43:14.004-06:00</updated>
   <content>ContactUs</content>
  </entry>
 </feed>
