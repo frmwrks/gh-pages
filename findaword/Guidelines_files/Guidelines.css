@@ -88,6 +88,9 @@
 .style_3 {
     padding: 4px;
 }
+.style_External_163_128 {
+    position: relative;
+}
 .paragraph_style_3 {
     color: rgb(113, 113, 113);
     font-family: 'Georgia', serif;
@@ -113,14 +116,16 @@
 .style_4 {
     padding: 4px;
 }
-.style_External_163_235 {
+.style_External_673_528 {
+    bottom: 0px;
     position: relative;
+    width: 673px;
 }
-.style_SkipStroke {
+.style_SkipStroke_1 {
     background: transparent;
     opacity: 1.00;
 }
-.style_SkipStroke_1 {
+.style_SkipStroke {
     background: transparent;
     opacity: 1.00;
 }
@@ -136,19 +141,14 @@
     background: transparent;
     opacity: 1.00;
 }
-.style_SkipStroke_5 {
-    background: transparent url(About_Header_Paper.jpg) repeat scroll top left;
-    opacity: 1.00;
-}
 .style_External_275_62 {
     bottom: 0px;
     position: relative;
     width: 275px;
 }
-.style_External_500_528 {
-    bottom: 0px;
-    position: relative;
-    width: 500px;
+.style_SkipStroke_5 {
+    background: transparent url(About_Header_Paper.jpg) repeat scroll top left;
+    opacity: 1.00;
 }
 .style_SkipStrokeSkipFillSkipOpacity {
     float: none;
@@ -248,10 +248,10 @@
 .Normal {
     padding: 0px;
 }
-.Normal_External_500_528 {
+.Normal_External_673_528 {
     bottom: 0px;
     position: absolute;
-    width: 500px;
+    width: 673px;
 }
 .Normal_External_275_62 {
     bottom: 0px;
@@ -312,7 +312,7 @@
 .graphic_textbox_layout_style_default {
     padding: 4px;
 }
-.graphic_textbox_layout_style_default_External_163_235 {
+.graphic_textbox_layout_style_default_External_163_128 {
     position: relative;
 }
 .graphic_textbox_style_default_SkipStroke {
