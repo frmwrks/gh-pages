@@ -446,11 +446,6 @@
     text-indent: 0px;
     text-transform: none;
 }
-.style_External_500_811 {
-    bottom: 0px;
-    position: relative;
-    width: 500px;
-}
 .style_SkipStrokeSkipFillSkipOpacity {
     float: none;
     margin: 0px;
@@ -460,6 +455,11 @@
 }
 .style_External_700_70 {
     position: relative;
+}
+.style_External_673_811 {
+    bottom: 0px;
+    position: relative;
+    width: 673px;
 }
 .style_External_275_62 {
     bottom: 0px;
@@ -490,7 +490,7 @@
     background: transparent url(About_Header_Paper.jpg) repeat scroll top left;
     opacity: 1.00;
 }
-.style_External_163_235 {
+.style_External_163_128 {
     position: relative;
 }
 .style_External_395_57 {
@@ -606,15 +606,15 @@
     text-indent: 0px;
     text-transform: none;
 }
-.Normal_External_500_811 {
-    bottom: 0px;
-    position: absolute;
-    width: 500px;
-}
 .Normal_External_275_62 {
     bottom: 0px;
     position: absolute;
     width: 275px;
+}
+.Normal_External_673_811 {
+    bottom: 0px;
+    position: absolute;
+    width: 673px;
 }
 .Normal {
     padding: 0px;
@@ -670,7 +670,7 @@
     float: none;
     margin: 0px;
 }
-.graphic_textbox_layout_style_default_External_163_235 {
+.graphic_textbox_layout_style_default_External_163_128 {
     position: relative;
 }
 .graphic_textbox_layout_style_default_External_395_57 {
