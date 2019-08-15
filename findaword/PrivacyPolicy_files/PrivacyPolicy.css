@@ -111,11 +111,6 @@
     font-weight: 700;
     line-height: 18px;
 }
-.style_4 {
-    color: rgb(255, 0, 0);
-    line-height: 18px;
-    opacity: 1.00;
-}
 .paragraph_style_4 {
     color: rgb(0, 0, 0);
     font-family: 'Times-Bold', 'Times', 'Times New Roman', serif;
@@ -248,7 +243,7 @@
     text-indent: 0px;
     text-transform: none;
 }
-.style_5 {
+.style_4 {
     line-height: 14px;
 }
 .paragraph_style_10 {
@@ -273,13 +268,13 @@
     text-indent: 0px;
     text-transform: none;
 }
-.style_6 {
+.style_5 {
     color: rgb(0, 0, 0);
     line-height: 14px;
     opacity: 1.00;
     text-decoration: none;
 }
-.style_7 {
+.style_6 {
     padding: 4px;
 }
 .style_SkipStroke {
@@ -332,17 +327,17 @@
     background: transparent;
     opacity: 1.00;
 }
-.style_8 {
+.style_7 {
     padding: 4px;
+}
+.style_External_673_2451 {
+    bottom: 0px;
+    position: relative;
+    width: 673px;
 }
 .style_SkipStroke_5 {
     background: transparent url(About_Header_Paper.jpg) repeat scroll top left;
     opacity: 1.00;
-}
-.style_External_673_2469 {
-    bottom: 0px;
-    position: relative;
-    width: 673px;
 }
 .style_SkipStrokeSkipFillSkipOpacity {
     float: none;
@@ -442,15 +437,15 @@
 .Normal {
     padding: 0px;
 }
+.Normal_External_673_2451 {
+    bottom: 0px;
+    position: absolute;
+    width: 673px;
+}
 .Normal_External_275_62 {
     bottom: 0px;
     position: absolute;
     width: 275px;
-}
-.Normal_External_673_2469 {
-    bottom: 0px;
-    position: absolute;
-    width: 673px;
 }
 .graphic_generic_body_textbox_style_default_SkipStroke {
     background: transparent;
