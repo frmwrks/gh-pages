@@ -72,7 +72,7 @@
     text-transform: none;
 }
 .style_2 {
-    color: rgb(87, 87, 87);
+    color: rgb(0, 0, 0);
     font-family: 'Georgia', serif;
     font-size: 14px;
     font-stretch: normal;
@@ -85,13 +85,69 @@
     text-decoration: none;
     text-transform: none;
 }
+.paragraph_style_3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Optima-Regular', 'Optima', 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 12px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 6px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.paragraph_style_4 {
+    color: rgb(0, 0, 0);
+    font-family: 'Optima-Regular', 'Optima', 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 12px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 6px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
 .style_3 {
+    font-family: 'Georgia-Bold', 'Georgia', serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-decoration: none;
+    text-transform: none;
+}
+.style_4 {
     padding: 4px;
 }
 .style_External_163_128 {
     position: relative;
 }
-.paragraph_style_3 {
+.paragraph_style_5 {
     color: rgb(113, 113, 113);
     font-family: 'Georgia', serif;
     font-size: 13px;
@@ -113,19 +169,14 @@
     text-indent: 0px;
     text-transform: none;
 }
-.style_4 {
+.style_5 {
     padding: 4px;
 }
-.style_External_673_528 {
-    bottom: 0px;
-    position: relative;
-    width: 673px;
-}
-.style_SkipStroke_1 {
+.style_SkipStroke {
     background: transparent;
     opacity: 1.00;
 }
-.style_SkipStroke {
+.style_SkipStroke_1 {
     background: transparent;
     opacity: 1.00;
 }
@@ -141,14 +192,19 @@
     background: transparent;
     opacity: 1.00;
 }
+.style_SkipStroke_5 {
+    background: transparent url(About_Header_Paper.jpg) repeat scroll top left;
+    opacity: 1.00;
+}
 .style_External_275_62 {
     bottom: 0px;
     position: relative;
     width: 275px;
 }
-.style_SkipStroke_5 {
-    background: transparent url(About_Header_Paper.jpg) repeat scroll top left;
-    opacity: 1.00;
+.style_External_673_685 {
+    bottom: 0px;
+    position: relative;
+    width: 673px;
 }
 .style_SkipStrokeSkipFillSkipOpacity {
     float: none;
@@ -248,7 +304,7 @@
 .Normal {
     padding: 0px;
 }
-.Normal_External_673_528 {
+.Normal_External_673_685 {
     bottom: 0px;
     position: absolute;
     width: 673px;
@@ -318,6 +374,58 @@
 .graphic_textbox_style_default_SkipStroke {
     background: transparent;
     opacity: 1.00;
+}
+a {
+    color: rgb(183, 97, 78);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+}
+a.class1 {
+    color: rgb(178, 23, 2);
+}
+a.class1:visited {
+    color: rgb(178, 23, 2);
+}
+a.class1:hover {
+    color: rgb(224, 133, 102);
+    text-decoration: underline;
+}
+a.class2 {
+    color: rgb(178, 23, 2);
+}
+a.class2:visited {
+    color: rgb(178, 23, 2);
+}
+a.class2:hover {
+    color: rgb(224, 133, 102);
+    text-decoration: underline;
+}
+a.class3 {
+    color: rgb(178, 23, 2);
+}
+a.class3:visited {
+    color: rgb(178, 23, 2);
+}
+a.class3:hover {
+    color: rgb(224, 133, 102);
+    text-decoration: underline;
+}
+a.class4 {
+    color: rgb(178, 23, 2);
+}
+a.class4:visited {
+    color: rgb(178, 23, 2);
+}
+a.class4:hover {
+    color: rgb(224, 133, 102);
+    text-decoration: underline;
+}
+a:hover {
+    color: rgb(224, 133, 102);
+    text-decoration: underline;
 }
 ol  { 
       padding:0;
