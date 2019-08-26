@@ -19,57 +19,7 @@ html {
 	}
 }
 
-/* iPhone XS */
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) {
-	html {
-	  font-size: 64px;
-	}
-}
 
-/* iPhone XS Max */
-@media only screen 
-    and (device-width : 414px) 
-    and (device-height : 896px) 
-    and (-webkit-device-pixel-ratio : 3) {
-	html {
-	  font-size: 64px;
-	}
-}
-
-/* iPhone X */
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) {
-	html {
-	  font-size: 64px;
-	}
-}
-
-/* iPhone 7/8 */
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 667px) 
-    and (-webkit-device-pixel-ratio : 2) {
-	html {
-	  font-size: 64px;
-	}
-}
-
-/* iPhone 6+/6s+/7+/8+ */
-@media only screen 
-    and (device-width : 414px) 
-    and (device-height : 736px) 
-    and (-webkit-device-pixel-ratio : 3) {
-	html {
-	  font-size: 64px;
-	}
-}
-
-/*
 @media only screen and (min-width: 600px) {
 	html {
 	  font-size: 32px;
@@ -81,7 +31,6 @@ html {
 	  font-size: 16px;
 	}
 }
-*/
 
 .style_courier {
     color: rgb(0, 0, 0);
