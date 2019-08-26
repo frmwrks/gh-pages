@@ -15,17 +15,7 @@ html {
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 2) {
 	html {
-	  font-size: 6px;
-	}
-}
-
-/* iPhone XS */
-@media only screen 
-    and (device-width : 375px)  /* 1125 & 2436 */
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) {
-	html {
-	  font-size: 6px;
+	  font-size: 12px;
 	}
 }
 
@@ -39,7 +29,7 @@ html {
 	}
 }
 
-/* iPhone X */
+/* iPhone X/XS */
 @media only screen 
     and (device-width : 375px)  /* 1125 & 2436 */
     and (device-height : 812px) 
