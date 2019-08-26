@@ -15,7 +15,7 @@ html {
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 2) {
 	html {
-	  font-size: 64px;
+	  font-size: 32px;
 	}
 }
 
