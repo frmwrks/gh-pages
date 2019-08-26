@@ -15,7 +15,7 @@ html {
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 2) {
 	html {
-	  font-size: 12px;
+	  font-size: 6px;
 	}
 }
 
@@ -25,7 +25,7 @@ html {
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) {
 	html {
-	  font-size: 12px;
+	  font-size: 6px;
 	}
 }
 
@@ -35,7 +35,7 @@ html {
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 3) {
 	html {
-	  font-size: 12px;
+	  font-size: 6px;
 	}
 }
 
@@ -45,7 +45,7 @@ html {
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) {
 	html {
-	  font-size: 12px;
+	  font-size: 6px;
 	}
 }
 
@@ -55,7 +55,7 @@ html {
     and (device-height : 667px) 
     and (-webkit-device-pixel-ratio : 2) {
 	html {
-	  font-size: 12px;
+	  font-size: 6px;
 	}
 }
 
@@ -65,7 +65,7 @@ html {
     and (device-height : 640px) 
     and (-webkit-device-pixel-ratio : 3) {
 	html {
-	  font-size: 12px;
+	  font-size: 6px;
 	}
 }
 
