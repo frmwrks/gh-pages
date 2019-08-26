@@ -524,6 +524,20 @@
     text-indent: 0px;
     text-transform: none;
 }
+.style_courier {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier', serif;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    opacity: 1.00;
+    text-decoration: none;
+    text-transform: none;
+}
 .style_SkipStrokeSkipFillSkipOpacity {
     float: none;
     margin: 0px;
@@ -537,7 +551,7 @@
 .style_External_673_811 {
     bottom: 0px;
     position: relative;
-    width: 673px;
+    width: 100%;
 }
 .style_External_275_62 {
     bottom: 0px;
@@ -692,7 +706,7 @@
 .Normal_External_673_811 {
     bottom: 0px;
     position: absolute;
-    width: 673px;
+    width: 100%;
 }
 .Normal {
     padding: 0px;
