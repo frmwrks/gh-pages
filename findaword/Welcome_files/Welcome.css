@@ -6,7 +6,7 @@ If iPhone orientation is important, maybe add the following to @media:
 
 /* Default for computer screen */
 html {
-  font-size: 13px;
+  font-size: 6px;
 }
 
 /* iPhone XR */
