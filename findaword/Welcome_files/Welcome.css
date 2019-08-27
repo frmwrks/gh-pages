@@ -14,6 +14,12 @@ html {
   zoom: 1.0 ;
 }
 
+ul {
+  list-style-type: circle;
+  margin: 5px;
+  padding: 5px;
+}
+
 /* ??? - iPhone 5 */
 @media only screen 
     and (device-width : 320px)
@@ -73,6 +79,70 @@ html {
 	}
 }
 
+/* NEW */
+
+/* FORMATTING FOR TOP QUOTE AND MAX SCREEN SIZE*/
+/* 1 line plus name */
+#id2 {
+	margin-top: 20px;
+}
+#id3 {
+	height: 600px;
+}
+
+/* 2 lines plus name */
+@media screen and (max-width: 695px) {
+	#id2 {
+		margin-top: 16px;
+	}
+	#id3 {
+		height: 811px;
+	}
+}
+
+/* 3 lines plus name */
+@media screen and (max-width: 435px) {
+	#id2 {
+		margin-top: 8px;
+	}
+	#id3 {
+		height: 811px;
+	}
+}
+
+/* 4 lines plus name */
+@media screen and (max-width: 350px) {
+	#id2 {
+		margin-top: 0px;
+	}
+	#id3 {
+		height: 1200px;
+	}
+}
+
+.style_bold_courier {
+    color: rgb(100, 0, 0);
+    font-family: 'Courier', serif;
+    font-size: 1.38rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    opacity: 1.00;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: -10px;
+    text-transform: none;
+}
+
 .style_courier {
     color: rgb(0, 0, 0);
     font-family: 'Courier', serif;
@@ -87,6 +157,89 @@ html {
     text-decoration: none;
     text-transform: none;
 }
+
+span.blue {
+    color: rgb(4, 51, 255);
+    font-family: 'Georgia', serif;
+    font-size: 1.1rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+    opacity: 1.00;
+    text-decoration: none;
+    text-transform: none;
+}
+
+ul.style_bullet {
+    color: rgb(0, 0, 0);
+    font-family: 'Georgia', serif;
+    font-size: 1.1rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.2;
+    opacity: 1.00;
+    text-decoration: none;
+    text-transform: none;
+    /* HAH */
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-left: 12px;
+}
+
+.button_style {
+    color: rgb(113, 113, 113);
+    font-family: 'Georgia', serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    /* ADDED */
+    position: relative;
+    float: none;
+    margin: 0px;
+    /* FROM tinyText */
+    font-size: 1px;
+    line-height: 1px;
+    /* FROM inline_block */
+    display: inline-block;
+    vertical-align: baseline;
+    margin-bottom:0.3em;
+    /* FROM button specifications */
+    height: 30px;
+    width: 150px;
+}
+
+.img_style {
+    /* FROM all but Welcome button specifications */
+    border: none;
+    height: 38px;
+    left: -4px;
+    top: -3px;
+    width: 158px;
+    z-index: 1;
+}
+
+/* ORIGINAL */
 
 .style {
     padding: 4px;
@@ -114,9 +267,7 @@ html {
     text-shadow: 3px 3px 10px rgb(0, 0, 0);
     text-transform: none;
 }
-.style_1 {
-    padding: 4px;
-}
+
 .paragraph_style_1 {
     color: rgb(113, 113, 113);
     font-family: 'Georgia', serif;
@@ -126,7 +277,7 @@ html {
     font-variant: normal;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: 1.5;
+    line-height: 1;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -181,13 +332,13 @@ html {
     font-variant: normal;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: 1.5;
-    margin-bottom: 0px;
+    line-height: 1.0;
+    margin-bottom: -8px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
     opacity: 1.00;
-    padding-bottom: 4px;
+    padding-bottom: 0px;
     padding-top: 0px;
     text-align: left;
     text-decoration: none;
@@ -203,7 +354,7 @@ html {
     font-variant: normal;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: 1.5;
+    line-height: 1.2;
     opacity: 1.00;
     text-decoration: none;
     text-transform: none;
@@ -405,7 +556,7 @@ html {
 .paragraph_style_13 {
     color: rgb(0, 188, 242);
     font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
-    font-size: 1.54rem;
+    font-size: 1.3rem;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
@@ -493,9 +644,7 @@ html {
 .style_External_163_128 {
     position: relative;
 }
-.style_External_395_57 {
-    position: relative;
-}
+
 .Accomplishments {
     color: rgb(0, 0, 0);
     font-family: 'Optima-Regular', 'Optima', 'Trebuchet MS', sans-serif;
