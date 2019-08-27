@@ -9,13 +9,17 @@ html {
   font-size: 12px;
 }
 
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
 /* ??? - iPhone 5 */
 @media only screen 
     and (device-width : 320px)
-    and (device-height : 568px) 
-    and (-webkit-device-pixel-ratio : 2) {
+    and (device-height : 568px) {
 	html {
-	  font-size: 24px;
+	  font-size: 12px;
 	}
 }
 
@@ -25,7 +29,7 @@ html {
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 2) {
 	html {
-	  font-size: 24px;
+	  font-size: 12px;
 	}
 }
 
@@ -35,7 +39,7 @@ html {
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 3) {
 	html {
-	  font-size: 24px;
+	  font-size: 12px;
 	}
 }
 
@@ -45,7 +49,7 @@ html {
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) {
 	html {
-	  font-size: 24px;
+	  font-size: 12px;
 	}
 }
 
@@ -55,7 +59,7 @@ html {
     and (device-height : 667px) 
     and (-webkit-device-pixel-ratio : 2) {
 	html {
-	  font-size: 24px;
+	  font-size: 12px;
 	}
 }
 
@@ -65,7 +69,7 @@ html {
     and (device-height : 736px) 
     and (-webkit-device-pixel-ratio : 3)  {
 	html {
-	  font-size: 24px;
+	  font-size: 12px;
 	}
 }
 
@@ -90,7 +94,7 @@ html {
 .header_style {
     color: rgb(0, 0, 0);
     font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
@@ -460,7 +464,7 @@ html {
 .style_External_275_62 {
     bottom: 0px;
     position: relative;
-    width: 275px;
+    /* width: 275px; width: 25%; */
 }
 .style_SkipStroke {
     background: transparent;
