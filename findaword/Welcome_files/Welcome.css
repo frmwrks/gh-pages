@@ -6,56 +6,66 @@ If iPhone orientation is important, maybe add the following to @media:
 
 /* Default for computer screen */
 html {
-  font-size: 6px;
+  font-size: 12px;
 }
 
-/* iPhone XR */
+/* ??? - iPhone 5 */
+@media only screen 
+    and (device-width : 320px)
+    and (device-height : 568px) 
+    and (-webkit-device-pixel-ratio : 2) {
+	html {
+	  font-size: 24px;
+	}
+}
+
+/* ??? - iPhone XR */
 @media only screen 
     and (device-width : 414px) /* 828 & 1792 */
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 2) {
 	html {
-	  font-size: 12px;
+	  font-size: 24px;
 	}
 }
 
-/* iPhone XS Max */
+/* ??? - iPhone XS Max */
 @media only screen 
     and (device-width : 414px)  /* 1242 & 2688 */
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 3) {
 	html {
-	  font-size: 12px;
+	  font-size: 24px;
 	}
 }
 
-/* iPhone X/XS */
+/* WORKS FOR iPhone X/XS */
 @media only screen 
     and (device-width : 375px)  /* 1125 & 2436 */
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) {
 	html {
-	  font-size: 12px;
+	  font-size: 24px;
 	}
 }
 
-/* iPhone 6/7/8 */
+/* WORKS FOR iPhone 6/7/8 */
 @media only screen 
     and (device-width : 375px)  /* 750 & 1334 */
     and (device-height : 667px) 
     and (-webkit-device-pixel-ratio : 2) {
 	html {
-	  font-size: 12px;
+	  font-size: 24px;
 	}
 }
 
-/* iPhone 6+/6s+/7+/8+ */
+/* WORKS FOR 6+/6s+/7+/8+ */
 @media only screen 
-    and (device-width : 360px)   /* 1080 & 1920 */
-    and (device-height : 640px) 
-    and (-webkit-device-pixel-ratio : 3) {
+    and (device-width : 414px)
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3)  {
 	html {
-	  font-size: 12px;
+	  font-size: 24px;
 	}
 }
 
