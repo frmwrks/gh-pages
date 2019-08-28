@@ -35,14 +35,14 @@
           <script type="text/javascript">
           	<!--//--><![CDATA[//><!--
 							new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources', '.', {"path-to-root": "", "navbar-css": ".navbar {\n\tfont-family: 'Helvetica Neue', Arial, sans-serif;\n\tfont-size: .8em;\n\tcolor: #666666;\n\tline-height: 30px;\n\tborder-bottom: 3px solid #ccc;\n}\n\n.navbar-bg {\n\ttext-align: right;}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tpadding: 0px 5px 0px 0px;\n}\n\n\nli a {\n\ttext-decoration: none;\n\tpadding: 10px;\n\tcolor: #666666;\n\tfont-weight: bold;\n}\n\nli a:visited {\n\ttext-decoration: none;\n\tpadding: 10px;\n\tcolor: #666666;\n\tfont-weight: bold;\n}\n\nli a:hover\r{\r\n \tcolor: #999999;\n\ttext-decoration: none;\r}\n\n\nli.current-page a\r{\r\t color: #66ABC5;\n\ttext-decoration: none;\r}", "current-page-GUID": "04FF1FF1-5EAB-4563-BAAE-68A6B6A1452E", "isCollectionPage": "NO"});
-						//--><!]]></script>
+						//--><!]]>
+						</script>
           <div style="clear: both; height: 0px; line-height: 0px; " class="spacer"> </div>
         </div>
         
         <div style="height: 75px; margin-left: 0px; position: relative; z-index: 10; " id="header_layer">
-          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
           <div id="id1" style="height: 62px; left: 10px; position: absolute; top: 8px; width: 130px; z-index: 1; padding: 4px;">
-						<p style="padding-bottom: 0pt; padding-top: 0pt; " class="header_style">frmwrks</p>
+						<p class="header_style">frmwrks</p>
           </div>
           <div id="id2" style="height: 57px; position: absolute; right: 0; top: 4px; left: 160px; min-width: 160px; z-index: 1; ">
             <div style="padding: 4px; ">
@@ -54,9 +54,10 @@
           </div>
         </div>
         
+        <!-- MAIN SECTION BELOW frmwrks HEADER -->
         <div style="margin-left: 0px; position: relative; z-index: 5; " id="body_layer">
 
-          <div style="height: 2px;  height: 2px; left: 0px; position: absolute; top: 0px; z-index: auto1; " class="tinyText style_SkipStroke_3">
+          <div style="height: 2px;  height: 2px; left: 0px; position: absolute; top: 0px; z-index: auto1; " class="tinyText style_SkipStroke">
             <img src="Welcome_files/TopStroke.jpg" alt="" style="border: none; height: 2px; " />
           </div>
           
@@ -64,7 +65,8 @@
             <img src="Welcome_files/FindAWord_Image.png" alt="" style="border: none; width: 100%; " />
           </div>
           
-          <div style="height: 1007px; line-height: 1007px; " class="spacer"> </div>
+          <!-- THIS DETERMINES THE HEIGHT OF THE CONTENT -->
+          <div class="main_height_controller"> </div>
 
           <!-- TOP BUTTONS -->
           <div id="id4" style="left: 10px; position: absolute; top: 10px; width: 163px; z-index: auto; ">
@@ -100,13 +102,16 @@
 
 					</div>
           
-          <div id="id3" style="height: 811px; left: 10px; position: absolute; top: 140px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
+          <div id="id3" style="height: 1211px; left: 10px; position: absolute; top: 140px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content style_External_673_811" style="padding: 0px; ">
               <div class="style_3">
-                <p class="paragraph_style_3">What is FindAWord...P</p>
+                <p class="paragraph_style_3">What is FindAWord...</p>
                 <p class="style_4">Okay, it’s a cheater app – but we’ll call it a solution assistant. Sometimes, when you are playing a game
                 	 where you are given a bunch of letters and have to figure out one or two words, things get tough and frustrating. How
                 	 about an example:</p>
+
+								<p class="style_indentation style_indentation_first">Given: <span class="style_bold_courier">QHUSAOVKOTTRIRNLUT</span></p>
+								<p class="style_indentation style_indentation_last">Find: <span class="style_bold_times">One word 8 letters long</span></p>
 
 								<ul class="style_bullet">
 									<li>Figure it out? Could be tough. The FindAWord app has a dictionary with over 140,000 possible words
