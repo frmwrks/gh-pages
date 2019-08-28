@@ -79,6 +79,10 @@ ul {
 	}
 }
 
+.style_findaword {
+    font-family: 'Noteworthy', 'Tekton Pro', 'Casual', 'Bradley Hand', 'Papyrus', 'Helvetica', sans-serif;
+}
+
 .style_bold_courier {
     color: rgb(100, 0, 0);
     font-family: 'Courier', serif;
