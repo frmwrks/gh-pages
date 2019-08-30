@@ -11,7 +11,7 @@ If iPhone orientation is important, maybe add the following to @media:
 .main_height_controller {
 	height: 1040px;
 	line-height: 1040px;
-	background: rgb(220, 256, 256);
+	/* background: rgb(220, 256, 256); */
 }
 
 #id2 {
@@ -23,7 +23,7 @@ If iPhone orientation is important, maybe add the following to @media:
 	.main_height_controller {
 		height: 1170px;
 		line-height: 1170px;
-		background: rgb(256, 220, 256);
+		/* background: rgb(256, 220, 256); */
 	}
 	#id2 {
 		margin-top: 16px;
@@ -35,7 +35,7 @@ If iPhone orientation is important, maybe add the following to @media:
 	.main_height_controller {
 		height: 1276px;
 		line-height: 1276px;
-		background: rgb(256, 256, 220);
+		/* background: rgb(256, 256, 220); */
 	}
 	#id2 {
 		margin-top: 8px;
@@ -47,7 +47,7 @@ If iPhone orientation is important, maybe add the following to @media:
 	.main_height_controller {
 		height: 1370px;
 		line-height: 1370px;
-		background: rgb(220, 220, 220);
+		/* background: rgb(220, 220, 220); */
 	}
 	#id2 {
 		margin-top: 0px;
