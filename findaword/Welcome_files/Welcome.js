@@ -1,9 +1,5 @@
 // Created by iWeb 3.0.4 local-build-20190822
 
-setTransparentGifURL('Media/transparent.gif');
-function hostedOnDM() {
-	return false;
-}
 function onPageLoad() {
 	loadMozillaCSS('Welcome_files/WelcomeMoz.css')
 	adjustLineHeightIfTooBig('id1');
@@ -20,7 +16,4 @@ function onPageLoad() {
 	fixupAllIEPNGBGs();
 	fixAllIEPNGs('Media/transparent.gif');
 	performPostEffectsFixups()
-}
-function onPageUnload() {
-	Widget.onunload();
 }

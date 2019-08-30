@@ -4,22 +4,6 @@ If iPhone orientation is important, maybe add the following to @media:
 	and (orientation : landscape)
 */
 
-/* Default for computer screen */
-html {
-  font-size: 12px;
-}
-
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
-
-ul {
-  list-style-type: circle;
-  margin: 5px;
-  padding: 5px;
-}
-
 /* NEW */
 
 /* FORMATTING FOR TOP QUOTE AND MAX SCREEN SIZE*/
@@ -33,10 +17,6 @@ ul {
 	margin-top: 20px;
 }
 
-#id3 {
-	height: 600px;
-}
-
 /* 2 lines plus name */
 @media screen and (max-width: 695px) {
 	.main_height_controller {
@@ -45,9 +25,6 @@ ul {
 	}
 	#id2 {
 		margin-top: 16px;
-	}
-	#id3 {
-		height: 970px;
 	}
 }
 
@@ -60,9 +37,6 @@ ul {
 	#id2 {
 		margin-top: 8px;
 	}
-	#id3 {
-		height: 1100px;
-	}
 }
 
 /* 4 lines plus name */
@@ -74,13 +48,6 @@ ul {
 	#id2 {
 		margin-top: 0px;
 	}
-	#id3 {
-		height: 1150px;
-	}
-}
-
-.style_findaword {
-    font-family: 'Noteworthy', 'Tekton Pro', 'Casual', 'Bradley Hand', 'Papyrus', 'Helvetica', sans-serif;
 }
 
 .style_bold_courier {
@@ -146,16 +113,6 @@ ul {
     text-indent: -10px;
 }
 
-.style_indentation_first {
-    padding-bottom: 0px;
-    margin-bottom: 2px;
-}
-
-.style_indentation_last {
-    padding-top: 0px;
-    margin-top: 0px;
-}
-
 span.blue {
     color: rgb(4, 51, 255);
     font-family: 'Georgia', serif;
@@ -171,105 +128,9 @@ span.blue {
     text-transform: none;
 }
 
-ul.style_bullet {
-    color: rgb(0, 0, 0);
-    font-family: 'Georgia', serif;
-    font-size: 1.1rem;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.2;
-    opacity: 1.00;
-    text-decoration: none;
-    text-transform: none;
-    /* HAH */
-    margin-bottom: 10px;
-    margin-top: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    margin-left: 12px;
-}
-
-.button_style {
-    color: rgb(113, 113, 113);
-    font-family: 'Georgia', serif;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    opacity: 1.00;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0px;
-    text-transform: none;
-    /* ADDED */
-    position: relative;
-    float: none;
-    margin: 0px;
-    /* FROM tinyText */
-    font-size: 1px;
-    line-height: 1px;
-    /* FROM inline_block */
-    display: inline-block;
-    vertical-align: baseline;
-    margin-bottom:0.3em;
-    /* FROM button specifications */
-    height: 30px;
-    width: 150px;
-}
-
-.img_style {
-    /* FROM all but Welcome button specifications */
-    border: none;
-    height: 38px;
-    left: -4px;
-    top: -3px;
-    width: 158px;
-    z-index: 1;
-}
-
 /* ORIGINAL */
 
-.style {
-    padding: 4px;
-}
-.header_style {
-    color: rgb(0, 0, 0);
-    font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
-    font-size: 2.5rem;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.5;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    opacity: 1.00;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0px;
-    text-shadow: 3px 3px 10px rgb(0, 0, 0);
-    text-transform: none;
-    /* ADDED */
-    padding-bottom: 0pt;
-    padding-top: 0pt;
-}
-
-.paragraph_style_1 {
+.style_quote {
     color: rgb(113, 113, 113);
     font-family: 'Georgia', serif;
     font-size: 1rem;
@@ -291,16 +152,17 @@ ul.style_bullet {
     text-indent: 0px;
     text-transform: none;
 }
-.paragraph_style_2 {
+
+.style_quote_author {
     color: rgb(113, 113, 113);
     font-family: 'Georgia', serif;
-    font-size: 1rem;
+    font-size: 0.77rem;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: 1.5;
+    line-height: 13px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -313,237 +175,34 @@ ul.style_bullet {
     text-indent: 0px;
     text-transform: none;
 }
-.style_2 {
-    font-family: 'Georgia', serif;
-    font-size: 0.77rem;
-    font-stretch: normal;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-}
-.style_3 {
-    padding: 0px;
-}
-.paragraph_style_3 {
-    color: rgb(0, 188, 242);
-    font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
-    font-size: 1.54rem;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.0;
-    margin-bottom: -8px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    opacity: 1.00;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0px;
-    text-transform: none;
-}
-.style_4 {
-    color: rgb(0, 0, 0);
-    font-family: 'Georgia', serif;
-    font-size: 1.1rem;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.2;
-    opacity: 1.00;
-    text-decoration: none;
-    text-transform: none;
-}
-.style_5 {
-    color: rgb(87, 87, 87);
-    font-family: 'Georgia', serif;
-    font-size: 1.1rem;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.5;
-    opacity: 1.00;
-    text-decoration: none;
-    text-transform: none;
-}
-.paragraph_style_7 {
-    color: rgb(0, 0, 0);
-    font-family: 'Optima-Regular', 'Optima', 'Trebuchet MS', sans-serif;
-    font-size: 0.77rem;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.5;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    opacity: 1.00;
-    padding-bottom: 6px;
-    padding-top: 0px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0px;
-    text-transform: none;
-}
-.style_11 {
-    font-family: 'Georgia', serif;
-    font-size: 1.1rem;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.5;
-    text-decoration: none;
-    text-transform: none;
-}
-.paragraph_style_13 {
-    color: rgb(0, 188, 242);
-    font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
-    font-size: 1.3rem;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.5;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    opacity: 1.00;
-    padding-bottom: 4px;
-    padding-top: 12px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0px;
-    text-transform: none;
-}
-.paragraph_style_17 {
-    color: rgb(0, 0, 0);
-    font-family: 'Optima-Regular', 'Optima', 'Trebuchet MS', sans-serif;
-    font-size: 0.77rem;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.5;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    opacity: 1.00;
-    padding-bottom: 0px;
-    padding-top: 6px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0px;
-    text-transform: none;
-}
-.style_External_673_811 {
-    bottom: 0px;
-    position: relative;
-    width: 100%;
-}
-.style_SkipStroke {
-    background: transparent;
-    opacity: 1.00;
+
+.style_bullet_list {
+	font-family: 'Georgia', serif;
+	font-size: 1.2rem;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 0.8;
+	text-decoration: none;
+	text-transform: none;
+	margin-bottom: 8px;
 }
 
-.Accomplishments {
-    color: rgb(0, 0, 0);
-    font-family: 'Optima-Regular', 'Optima', 'Trebuchet MS', sans-serif;
-    font-size: 0.77rem;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.5;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    opacity: 1.00;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0px;
-    text-transform: none;
-}
-a {
-    color: rgb(183, 97, 78);
-    text-decoration: none;
-}
-a:visited {
-    color: rgb(66, 66, 66);
-    text-decoration: none;
-}
-a:hover {
-    color: rgb(224, 133, 102);
-    text-decoration: underline;
-}
-ol  { 
-	padding:0;
-	margin:0;
-	text-indent:0;
-	list-style-type:none ;
-	list-style-image:none
-}
-.Bullet { 
+.style_bullet_term {
+	color: rgb(191, 86, 80);
+	font-family: 'Symbol';
+	font-size: 2.0rem;
+	font-weight: 400;
+	margin-bottom: 10px;
 	text-decoration:none ;
 	text-transform:none ;
 	border: none;          
+	padding-left: 17px;
+	text-indent: -10px;
 }
-.bumper {
-    font-size: 1px;
-    line-height: 1px;
-}
-.tinyText {
-    font-size: 1px;
-    line-height: 1px;
-}
-#widget0 a:hover {
-    color: rgb(224, 133, 102);
-    text-decoration: underline;
-}
-#widget0 a:visited {
-    color: rgb(66, 66, 66);
-    text-decoration: none;
-}
-#widget0 a {
-    color: rgb(183, 97, 78);
-    text-decoration: none;
-}
-.spacer {
-    font-size: 1px;
-    line-height: 1px;
-}
-body { 
-    -webkit-text-size-adjust: none;
-}
-div { 
-    overflow: visible; 
-}
-img { 
-    border: none; 
-}
-.inline-block.shape-with-text {
-    vertical-align: bottom;
-}
+
 li.full-width {
     width: 100;
 }
