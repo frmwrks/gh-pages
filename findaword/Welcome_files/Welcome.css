@@ -9,8 +9,9 @@ If iPhone orientation is important, maybe add the following to @media:
 /* FORMATTING FOR TOP QUOTE AND MAX SCREEN SIZE*/
 /* 1 line plus name */
 .main_height_controller {
-	height: 850px;
-	line-height: 850px;
+	height: 1040px;
+	line-height: 1040px;
+	background: rgb(220, 256, 256);
 }
 
 #id2 {
@@ -20,8 +21,9 @@ If iPhone orientation is important, maybe add the following to @media:
 /* 2 lines plus name */
 @media screen and (max-width: 695px) {
 	.main_height_controller {
-		height: 970px;
-		line-height: 970px;
+		height: 1170px;
+		line-height: 1170px;
+		background: rgb(256, 220, 256);
 	}
 	#id2 {
 		margin-top: 16px;
@@ -31,8 +33,9 @@ If iPhone orientation is important, maybe add the following to @media:
 /* 3 lines plus name */
 @media screen and (max-width: 435px) {
 	.main_height_controller {
-		height: 1100px;
-		line-height: 1100px;
+		height: 1276px;
+		line-height: 1276px;
+		background: rgb(256, 256, 220);
 	}
 	#id2 {
 		margin-top: 8px;
@@ -42,8 +45,9 @@ If iPhone orientation is important, maybe add the following to @media:
 /* 4 lines plus name */
 @media screen and (max-width: 350px) {
 	.main_height_controller {
-		height: 1150px;
-		line-height: 1150px;
+		height: 1370px;
+		line-height: 1370px;
+		background: rgb(220, 220, 220);
 	}
 	#id2 {
 		margin-top: 0px;
