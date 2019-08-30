@@ -3,31 +3,35 @@
 /* FORMATTING FOR TOP QUOTE AND MAX SCREEN SIZE*/
 /* 1 line plus name */
 .main_height_controller {
-	height: 4400px;
-	line-height: 4400px;
+	height: 4500px;
+	line-height: 4500px;
+	background: rgb(220, 256, 256);
 }
 
 /* 2 lines plus name */
 @media screen and (max-width: 695px) {
 	.main_height_controller {
-		height: 4700px;
-		line-height: 4700px;
+		height: 4800px;
+		line-height: 4800px;
+		background: rgb(256, 220, 256);
 	}
 }
 
 /* 3 lines plus name */
 @media screen and (max-width: 435px) {
 	.main_height_controller {
-		height: 5010px;
-		line-height: 5010px;
+		height: 5110px;
+		line-height: 5110px;
+		background: rgb(256, 256, 220);
 	}
 }
 
 /* 4 lines plus name */
 @media screen and (max-width: 350px) {
 	.main_height_controller {
-		height: 5230px;
-		line-height: 5230px;
+		height: 5380px;
+		line-height: 5380px;
+		background: rgb(220, 220, 220);
 	}
 }
 
