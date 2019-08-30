@@ -1,0 +1,329 @@
+/* GENERAL */
+
+/* Default for computer screen */
+html {
+  font-size: 12px;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+.style {
+    padding: 4px;
+}
+
+/* BODY */
+body { 
+    -webkit-text-size-adjust: none;
+}
+
+.body_class {
+	background: rgb(101, 101, 101);
+	margin: 0pt;
+}
+
+.body_div_class_A {
+	text-align: center;
+}
+
+.body_div_class_B {
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	overflow: hidden;
+	position: relative;
+	word-wrap: break-word;
+	background: rgb(255, 255, 255);
+	text-align: left;
+	width: 700px;
+}
+
+/* div */
+
+div { 
+    overflow: visible; 
+}
+
+/* img */
+
+img { 
+    border: none; 
+}
+
+
+/* SCREEN SIZE */
+
+
+/* FONT */
+
+.style_findaword {
+    font-family: 'Noteworthy', 'Tekton Pro', 'Casual', 'Bradley Hand', 'Papyrus', 'Helvetica', sans-serif;
+}
+
+/* BULLET */
+
+ul {
+  list-style-type: circle;
+  margin: 5px;
+  padding: 5px;
+}
+
+ul.style_bullet {
+    color: rgb(0, 0, 0);
+    font-family: 'Georgia', serif;
+    font-size: 1.2rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.2;
+    opacity: 1.00;
+    text-decoration: none;
+    text-transform: none;
+    /* HAH */
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-left: 22px;
+}
+
+/* HEADER */
+
+.header_style {
+    color: rgb(0, 0, 0);
+    font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
+    font-size: 2.5rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+    text-transform: none;
+    /* ADDED */
+    padding-bottom: 0pt;
+    padding-top: 0pt;
+}
+
+/* BUTTONS */
+
+.button_style {
+    color: rgb(113, 113, 113);
+    font-family: 'Georgia', serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    /* ADDED */
+    position: relative;
+    float: none;
+    margin: 0px;
+    /* FROM tinyText */
+    font-size: 1px;
+    line-height: 1px;
+    /* FROM inline_block */
+    display: inline-block;
+    vertical-align: baseline;
+    margin-bottom:0.3em;
+    /* FROM button specifications */
+    height: 30px;
+    width: 150px;
+}
+
+/* IMAGES */
+
+.img_style {
+    /* FROM all but Welcome button specifications */
+    border: none;
+    height: 38px;
+    left: -4px;
+    top: -3px;
+    width: 158px;
+    z-index: 1;
+}
+/* STYLES */
+
+.style_findaword {
+    font-family: 'Noteworthy', 'Tekton Pro', 'Casual', 'Bradley Hand', 'Papyrus', 'Helvetica', sans-serif;
+}
+
+.style_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+
+.inline-block.shape-with-text {
+    vertical-align: bottom;
+}
+
+.style_pad_0 {
+    padding: 0px;
+}
+
+.title_style {
+    color: rgb(80, 120, 256);
+    font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
+    font-size: 2.0rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.0;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    text-shadow: 4px 2px 25px rgb(200, 100, 100);
+}
+
+.style_standard_paragraph {
+    color: rgb(0, 0, 0);
+    font-family: 'Georgia', serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 6px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+
+.style_A {
+    color: rgb(0, 0, 0);
+    font-family: 'Georgia', serif;
+    font-size: 1.1rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.2;
+    opacity: 1.00;
+    text-decoration: none;
+    text-transform: none;
+    margin-bottom: 4px;
+}
+
+.style_B {
+    bottom: 0px;
+    position: relative;
+    width: 100%;
+}
+
+.style_bold {
+    color: rgb(0, 0, 0);
+    font-family: 'Georgia-Bold', 'Georgia', serif;
+}
+
+.style_center_images {
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+.style_indentation_first {
+    padding-bottom: 0px;
+    margin-bottom: 2px;
+}
+
+.style_indentation_last {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+ol { 
+      padding:0;
+      margin:0;
+      text-indent:0;
+      list-style-type:none ;
+      list-style-image:none
+}
+
+.bumper {
+    font-size: 1px;
+    line-height: 1px;
+}
+
+.tinyText {
+    font-size: 1px;
+    line-height: 1px;
+}
+
+
+/* Actions */
+
+a {
+    color: rgb(183, 97, 78);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(224, 133, 102);
+    text-decoration: underline;
+}
+
+#widget0 a:hover {
+    color: rgb(224, 133, 102);
+    text-decoration: underline;
+}
+
+#widget0 a:visited {
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+}
+
+#widget0 a {
+    color: rgb(183, 97, 78);
+    text-decoration: none;
+}
+
+
