@@ -224,7 +224,7 @@ ul.style_bullet {
     line-height: 16px;
     margin-bottom: 0px;
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right: 10px;
     margin-top: 0px;
     opacity: 1.00;
     padding-bottom: 6px;
@@ -295,6 +295,17 @@ ol {
     line-height: 1px;
 }
 
+.InlineBlock { 
+    display: inline; 
+}
+.InlineBlock { 
+    display: inline-block; 
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-bottom:0.3em;
+}
 
 /* Actions */
 
