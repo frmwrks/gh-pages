@@ -5,7 +5,7 @@
 .main_height_controller {
 	height: 3710px;
 	line-height: 3710px;
-	background: rgb(220, 256, 256);
+	/* background: rgb(220, 256, 256); */
 }
 
 /* 2 lines plus name */
@@ -13,7 +13,7 @@
 	.main_height_controller {
 		height: 3870px;
 		line-height: 3870px;
-		background: rgb(256, 220, 256);
+		/* background: rgb(256, 220, 256); */
 	}
 }
 
@@ -22,7 +22,7 @@
 	.main_height_controller {
 		height: 3980px;
 		line-height: 3980px;
-		background: rgb(256, 256, 220);
+		/* background: rgb(256, 256, 220); */
 	}
 }
 
@@ -31,7 +31,7 @@
 	.main_height_controller {
 		height: 4060px;
 		line-height: 4060px;
-		background: rgb(220, 220, 220);
+		/* background: rgb(220, 220, 220); */
 	}
 }
 
