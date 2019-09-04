@@ -98,14 +98,3 @@ a.class3:hover {
     text-decoration: underline;
 }
 
-.InlineBlock { 
-    display: inline; 
-}
-.InlineBlock { 
-    display: inline-block; 
-}
-.inline-block {
-    display: inline-block;
-    vertical-align: baseline;
-    margin-bottom:0.3em;
-}
