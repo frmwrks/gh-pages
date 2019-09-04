@@ -3,16 +3,16 @@
 /* FORMATTING FOR TOP QUOTE AND MAX SCREEN SIZE*/
 /* 1 line plus name */
 .main_height_controller {
-	height: 2520px;
-	line-height: 2520px;
+	height: 3640px;
+	line-height: 3640px;
 	/* background: rgb(220, 256, 256); */
 }
 
 /* 2 lines plus name */
 @media screen and (max-width: 695px) {
 	.main_height_controller {
-		height: 3140px;
-		line-height: 3140px;
+		height: 3700px;
+		line-height: 3700px;
 		/* background: rgb(256, 220, 256); */
 	}
 }
@@ -20,8 +20,8 @@
 /* 3 lines plus name */
 @media screen and (max-width: 435px) {
 	.main_height_controller {
-		height: 3650px;
-		line-height: 3650px;
+		height: 3700px;
+		line-height: 3700px;
 		/* background: rgb(256, 256, 220); */
 	}
 }
@@ -29,8 +29,8 @@
 /* 4 lines plus name */
 @media screen and (max-width: 350px) {
 	.main_height_controller {
-		height: 4480px;
-		line-height: 4480px;
+		height: 3700px;
+		line-height: 3700px;
 		/* background: rgb(220, 220, 220); */
 	}
 }
