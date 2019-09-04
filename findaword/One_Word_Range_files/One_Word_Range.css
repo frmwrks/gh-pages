@@ -3,40 +3,37 @@
 /* FORMATTING FOR TOP QUOTE AND MAX SCREEN SIZE*/
 /* 1 line plus name */
 .main_height_controller {
-	height: 3640px;
-	line-height: 3640px;
-	/* background: rgb(220, 256, 256); */
+	height: 4000px;
+	line-height: 4000px;
+	background: rgb(220, 256, 256);
 }
 
 /* 2 lines plus name */
 @media screen and (max-width: 695px) {
 	.main_height_controller {
-		height: 3700px;
-		line-height: 3700px;
-		/* background: rgb(256, 220, 256); */
+		height: 4230px;
+		line-height: 4230px;
+		background: rgb(256, 220, 256);
 	}
 }
 
 /* 3 lines plus name */
 @media screen and (max-width: 435px) {
 	.main_height_controller {
-		height: 3700px;
-		line-height: 3700px;
-		/* background: rgb(256, 256, 220); */
+		height: 4460px;
+		line-height: 4460px;
+		background: rgb(256, 256, 220);
 	}
 }
 
 /* 4 lines plus name */
 @media screen and (max-width: 350px) {
 	.main_height_controller {
-		height: 3700px;
-		line-height: 3700px;
-		/* background: rgb(220, 220, 220); */
+		height: 4500px;
+		line-height: 4500px;
+		background: rgb(220, 220, 220);
 	}
 }
-
-/* Basic Styler */
-
 
 /* OLD STUFF */
 
