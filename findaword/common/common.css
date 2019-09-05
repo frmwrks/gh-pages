@@ -1,9 +1,8 @@
 /* GENERAL */
 
 /* Default for computer screen */
-html {
-  font-size: 12px;
-}
+html { font-size: 12px; }
+body { font-size: 12px; }
 
 @viewport {
   width: device-width ;
@@ -74,13 +73,13 @@ ul {
 ul.style_bullet {
     color: rgb(0, 0, 0);
     font-family: 'Georgia', serif;
-    font-size: 1.2rem;
+    font-size: 1.5em;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: 1.2;
+    line-height: 1.0em;
     opacity: 1.00;
     text-decoration: none;
     text-transform: none;
@@ -97,7 +96,7 @@ ul.style_bullet {
 .header_style {
     color: rgb(0, 0, 0);
     font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
-    font-size: 2.5rem;
+    font-size: 2.5em;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
@@ -158,6 +157,24 @@ ul.style_bullet {
     width: 150px;
 }
 
+/* Main Buttons on Every Page */
+.button_main {
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    height: 38px;
+    width: 158px;
+}
+
+/* Selected Button - Inactive */
+.button_inactive {
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    height: 38px;
+    width: 158px;
+}
+
 /* IMAGES */
 
 .img_style {
@@ -191,20 +208,20 @@ ul.style_bullet {
 .title_style {
     color: rgb(80, 120, 256);
     font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
-    font-size: 2.0rem;
+    font-size: 2.0em;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
     letter-spacing: 0;
-    line-height: 1.0;
-    margin-bottom: 4px;
+    line-height: 2.0em;
+    margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
     opacity: 1.00;
     padding-bottom: 0px;
-    padding-top: 16px;
+    padding-top: 0px;
     text-align: left;
     text-decoration: none;
     text-indent: 0px;
@@ -215,13 +232,13 @@ ul.style_bullet {
 .style_standard_paragraph {
     color: rgb(0, 0, 0);
     font-family: 'Georgia', serif;
-    font-size: 14px;
+    font-size: 1.5em;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: 16px;
+    line-height: 1.0em;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 10px;
@@ -238,7 +255,7 @@ ul.style_bullet {
 .style_A {
     color: rgb(0, 0, 0);
     font-family: 'Georgia', serif;
-    font-size: 1.1rem;
+    font-size: 1.1em;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
@@ -337,4 +354,29 @@ a:hover {
     text-decoration: none;
 }
 
+/* DEBUGGING */
+
+/* Screen Size Detection Color Fitting */
+
+.main_height_controller {
+	background: rgb(220, 256, 256);
+}
+
+@media screen and (max-width: 695px) {
+	.main_height_controller {
+		background: rgb(256, 220, 256);
+	}
+}
+
+@media screen and (max-width: 435px) {
+	.main_height_controller {
+		background: rgb(256, 256, 220);
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.main_height_controller {
+		background: rgb(220, 220, 220);
+	}
+}
 
