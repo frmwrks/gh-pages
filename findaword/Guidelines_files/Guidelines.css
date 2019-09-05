@@ -3,35 +3,31 @@
 /* FORMATTING FOR TOP QUOTE AND MAX SCREEN SIZE*/
 /* 1 line plus name */
 .main_height_controller {
-	height: 4500px;
-	line-height: 4500px;
-	/* background: rgb(220, 256, 256); */
+	height: 4720px;
+	line-height: 4720px;
 }
 
 /* 2 lines plus name */
 @media screen and (max-width: 695px) {
 	.main_height_controller {
-		height: 4800px;
-		line-height: 4800px;
-		/* background: rgb(256, 220, 256); */
+		height: 5120px;
+		line-height: 5120px;
 	}
 }
 
 /* 3 lines plus name */
 @media screen and (max-width: 435px) {
 	.main_height_controller {
-		height: 5110px;
-		line-height: 5110px;
-		/* background: rgb(256, 256, 220); */
+		height: 5650px;
+		line-height: 5650px;
 	}
 }
 
 /* 4 lines plus name */
 @media screen and (max-width: 350px) {
 	.main_height_controller {
-		height: 5380px;
-		line-height: 5380px;
-		/* background: rgb(220, 220, 220); */
+		height: 5920px;
+		line-height: 5920px;
 	}
 }
 
@@ -54,15 +50,6 @@
 
 .style_game_link {
     font-family: 'Georgia', serif;
-    font-size: 14px;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 16px;
-    text-decoration: none;
-    text-transform: none;
 }
 
 /* OLDSTUFF */
