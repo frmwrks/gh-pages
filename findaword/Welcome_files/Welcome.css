@@ -9,9 +9,8 @@ If iPhone orientation is important, maybe add the following to @media:
 /* FORMATTING FOR TOP QUOTE AND MAX SCREEN SIZE*/
 /* 1 line plus name */
 .main_height_controller {
-	height: 1040px;
-	line-height: 1040px;
-	/* background: rgb(220, 256, 256); */
+	height: 1200px;
+	line-height: 1200px;
 }
 
 #id2 {
@@ -21,9 +20,8 @@ If iPhone orientation is important, maybe add the following to @media:
 /* 2 lines plus name */
 @media screen and (max-width: 695px) {
 	.main_height_controller {
-		height: 1170px;
-		line-height: 1170px;
-		/* background: rgb(256, 220, 256); */
+		height: 1420px;
+		line-height: 1420px;
 	}
 	#id2 {
 		margin-top: 16px;
@@ -33,9 +31,8 @@ If iPhone orientation is important, maybe add the following to @media:
 /* 3 lines plus name */
 @media screen and (max-width: 435px) {
 	.main_height_controller {
-		height: 1276px;
-		line-height: 1276px;
-		/* background: rgb(256, 256, 220); */
+		height: 1570px;
+		line-height: 1570px;
 	}
 	#id2 {
 		margin-top: 8px;
@@ -45,25 +42,56 @@ If iPhone orientation is important, maybe add the following to @media:
 /* 4 lines plus name */
 @media screen and (max-width: 350px) {
 	.main_height_controller {
-		height: 1370px;
-		line-height: 1370px;
-		/* background: rgb(220, 220, 220); */
+		height: 1990px;
+		line-height: 1990px;
 	}
 	#id2 {
 		margin-top: 0px;
 	}
 }
 
+/* TESTING */
+@media only screen 
+    and (orientation : portrait) {
+		background: rgb(256, 220, 256);
+}
+@media only screen 
+    and (orientation : landscape) {
+		background: rgb(256, 256, 220);
+}
+
+.style_letters_shown {
+    color: rgb(100, 0, 0);
+    font-family: 'Courier', serif;
+    font-size: 1.6em;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.0em;
+    opacity: 1.00;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    /* HAH */
+    margin-bottom: 5px;
+    margin-top: -5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-left: 22px;
+}
+
 .style_bold_courier {
     color: rgb(100, 0, 0);
     font-family: 'Courier', serif;
-    font-size: 1.38rem;
+    font-size: 1.3em;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
     letter-spacing: 0;
-    line-height: 1%;
+    line-height: 1.0em;
     margin-top: 0px;
     margin-bottom: 10px;
     margin-left: 0px;
@@ -80,13 +108,13 @@ If iPhone orientation is important, maybe add the following to @media:
 .style_bold_times {
     color: rgb(100, 0, 0);
     font-family: 'Times', serif;
-    font-size: 1.38rem;
+    font-size: 1.3em;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
     letter-spacing: 0;
-    line-height: 1%;
+    line-height: 1.0em;
     margin-top: 0px;
     margin-bottom: 10px;
     margin-left: 0px;
@@ -103,13 +131,13 @@ If iPhone orientation is important, maybe add the following to @media:
 .style_indentation {
     color: rgb(0, 0, 0);
     font-family: 'Georgia', serif;
-    font-size: 1.1rem;
+    font-size: 1.4em;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: 1.2;
+    line-height: 1.2em;
     opacity: 1.00;
     text-decoration: none;
     text-transform: none;
@@ -119,17 +147,6 @@ If iPhone orientation is important, maybe add the following to @media:
 
 span.blue {
     color: rgb(4, 51, 255);
-    font-family: 'Georgia', serif;
-    font-size: 1.1rem;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.5;
-    opacity: 1.00;
-    text-decoration: none;
-    text-transform: none;
 }
 
 /* ORIGINAL */
@@ -137,7 +154,7 @@ span.blue {
 .style_quote {
     color: rgb(113, 113, 113);
     font-family: 'Georgia', serif;
-    font-size: 1rem;
+    font-size: 1em;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
@@ -160,7 +177,7 @@ span.blue {
 .style_quote_author {
     color: rgb(113, 113, 113);
     font-family: 'Georgia', serif;
-    font-size: 0.77rem;
+    font-size: 0.77em;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
@@ -182,13 +199,13 @@ span.blue {
 
 .style_bullet_list {
 	font-family: 'Georgia', serif;
-	font-size: 1.2rem;
+	font-size: 1.5em;
 	font-stretch: normal;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
 	letter-spacing: 0;
-	line-height: 0.8;
+	line-height: 1.3em;
 	text-decoration: none;
 	text-transform: none;
 	margin-bottom: 8px;
@@ -197,9 +214,9 @@ span.blue {
 .style_bullet_term {
 	color: rgb(191, 86, 80);
 	font-family: 'Symbol';
-	font-size: 2.0rem;
+	font-size: 2.0em;
 	font-weight: 400;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	text-decoration:none ;
 	text-transform:none ;
 	border: none;          
