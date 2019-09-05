@@ -3,35 +3,31 @@
 /* FORMATTING FOR TOP QUOTE AND MAX SCREEN SIZE*/
 /* 1 line plus name */
 .main_height_controller {
-	height: 2520px;
-	line-height: 2520px;
-	/* background: rgb(220, 256, 256); */
+	height: 2880px;
+	line-height: 2880px;
 }
 
 /* 2 lines plus name */
 @media screen and (max-width: 695px) {
 	.main_height_controller {
-		height: 3140px;
-		line-height: 3140px;
-		/* background: rgb(256, 220, 256); */
+		height: 3920px;
+		line-height: 3920px;
 	}
 }
 
 /* 3 lines plus name */
 @media screen and (max-width: 435px) {
 	.main_height_controller {
-		height: 3650px;
-		line-height: 3650px;
-		/* background: rgb(256, 256, 220); */
+		height: 4520px;
+		line-height: 4520px;
 	}
 }
 
 /* 4 lines plus name */
 @media screen and (max-width: 350px) {
 	.main_height_controller {
-		height: 4480px;
-		line-height: 4480px;
-		/* background: rgb(220, 220, 220); */
+		height: 5880px;
+		line-height: 5880px;
 	}
 }
 
@@ -63,13 +59,13 @@
 .style_subsection_title {
     color: rgb(0, 0, 0);
     font-family: 'Times-Bold', 'Times', 'Times New Roman', serif;
-    font-size: 16px;
+    font-size: 1.4em;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
     letter-spacing: 0;
-    line-height: 18px;
+    line-height: 1.0em;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -86,13 +82,13 @@
 .style_minorsection_title {
     color: rgb(0, 0, 0);
     font-family: 'Times-Bold', 'Times', 'Times New Roman', serif;
-    font-size: 14px;
+    font-size: 1.3em;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
     letter-spacing: 0;
-    line-height: 18px;
+    line-height: 1.0em;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -109,13 +105,13 @@
 ul.style_bullet_title {
     color: rgb(0, 0, 0);
     font-family: 'Georgia', serif;
-    font-size: 1.2rem;
+    font-size: 1.4em;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: 1.2;
+    line-height: 1.0em;
     opacity: 1.00;
     text-decoration: none;
     text-transform: none;
@@ -141,17 +137,17 @@ ul.style_bullet_title {
 .paragraph_style_2 {
     color: rgb(255, 0, 0);
     font-family: 'Times-Bold', 'Times', 'Times New Roman', serif;
-    font-size: 23px;
+    font-size: 2.0em;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
     letter-spacing: 0;
-    line-height: 36px;
+    line-height: 1.0em;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 20px;
+    margin-top: 0px;
     opacity: 1.00;
     padding-bottom: 12px;
     padding-top: 0px;
@@ -162,11 +158,6 @@ ul.style_bullet_title {
 }
 .style_bold_word {
     font-family: 'Times-Bold', 'Times', 'Times New Roman', serif;
-    font-size: 14px;
-    font-stretch: normal;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 18px;
 }
 .style_link {
     line-height: 14px;
