@@ -5,33 +5,29 @@
 .main_height_controller {
 	height: 2880px;
 	line-height: 2880px;
-	background: rgb(220, 256, 256);
 }
 
 /* 2 lines plus name */
 @media screen and (max-width: 695px) {
 	.main_height_controller {
-		height: 2880px;
-		line-height: 2880px;
-		background: rgb(256, 220, 256);
+		height: 2980px;
+		line-height: 2980px;
 	}
 }
 
 /* 3 lines plus name */
 @media screen and (max-width: 435px) {
 	.main_height_controller {
-		height: 2880px;
-		line-height: 2880px;
-		background: rgb(256, 256, 220);
+		height: 3000px;
+		line-height: 3000px;
 	}
 }
 
 /* 4 lines plus name */
 @media screen and (max-width: 350px) {
 	.main_height_controller {
-		height: 2880px;
-		line-height: 2880px;
-		background: rgb(220, 220, 220);
+		height: 3000px;
+		line-height: 3000px;
 	}
 }
 
