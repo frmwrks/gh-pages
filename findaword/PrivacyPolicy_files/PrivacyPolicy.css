@@ -1,35 +1,20 @@
 /* NEW STUFF */
 
-/* FORMATTING FOR TOP QUOTE AND MAX SCREEN SIZE*/
-/* 1 line plus name */
-.main_height_controller {
-	height: 2880px;
-	line-height: 2880px;
-}
-
-/* 2 lines plus name */
-@media screen and (max-width: 695px) {
-	.main_height_controller {
-		height: 3920px;
-		line-height: 3920px;
-	}
-}
-
-/* 3 lines plus name */
-@media screen and (max-width: 435px) {
-	.main_height_controller {
-		height: 4520px;
-		line-height: 4520px;
-	}
-}
-
-/* 4 lines plus name */
-@media screen and (max-width: 350px) {
-	.main_height_controller {
-		height: 5880px;
-		line-height: 5880px;
-	}
-}
+/* SCREEN SIZE */
+.main_height_controller {                                         height: 2250px; line-height: 2250px; }
+@media screen and (max-width: 1367px) { .main_height_controller { height: 2390px; line-height: 2390px; } }   /* • Landscape */
+@media screen and (max-width: 1113px) { .main_height_controller { height: 2450px; line-height: 2450px; } }   /* • Portrait */
+@media screen and (max-width: 1025px) { .main_height_controller { height: 2730px; line-height: 2730px; } }   /* • Portrait & Landscape */
+@media screen and (max-width:  835px) { .main_height_controller { height: 2770px; line-height: 2770px; } }   /* • Landscape */
+@media screen and (max-width:  813px) { .main_height_controller { height: 2820px; line-height: 2820px; } }   /* • Landscape */
+@media screen and (max-width:  769px) { .main_height_controller { height: 2840px; line-height: 2840px; } }   /* • Portrait */
+@media screen and (max-width:  737px) { .main_height_controller { height: 3010px; line-height: 3010px; } }   /* • Landscape */
+@media screen and (max-width:  668px) { .main_height_controller { height: 3360px; line-height: 3360px; } }   /* • Landscape */
+@media screen and (max-width:  569px) { .main_height_controller { height: 3720px; line-height: 3720px; } }   /* • Landscape */
+@media screen and (max-width:  481px) { .main_height_controller { height: 4120px; line-height: 4120px; } }   /* • Landscape */
+@media screen and (max-width:  415px) { .main_height_controller { height: 4450px; line-height: 4450px; } }   /* • Portrait */
+@media screen and (max-width:  376px) { .main_height_controller { height: 5130px; line-height: 5130px; } }   /* • Portrait */
+@media screen and (max-width:  321px) { .main_height_controller { height: 6050px; line-height: 6050px; } }   /* • Portrait */
 
 /* Basic Styler */
 
