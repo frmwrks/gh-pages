@@ -1,0 +1,24 @@
+/* NEW STUFF */
+
+/* SCREEN SIZE */
+.main_height_controller {                                         height: 400px; line-height: 400px; }     /* • Landscape */
+@media screen and (max-width: 1365px) { .main_height_controller { height: 410px; line-height: 4100px } }   /* • Portrait */
+@media screen and (max-width: 1111px) { .main_height_controller { height: 420px; line-height: 420px; } }   /* • Portrait & Landscape */
+@media screen and (max-width: 1023px) { .main_height_controller { height: 440px; line-height: 440px; } }   /* • Landscape */
+@media screen and (max-width:  833px) { .main_height_controller { height: 440px; line-height: 440px; } }   /* • Landscape */
+@media screen and (max-width:  811px) { .main_height_controller { height: 440px; line-height: 440px; } }   /* • Portrait */
+@media screen and (max-width:  767px) { .main_height_controller { height: 440px; line-height: 440px; } }   /* • Landscape */
+@media screen and (max-width:  735px) { .main_height_controller { height: 450px; line-height: 450px; } }   /* • Landscape */
+@media screen and (max-width:  666px) { .main_height_controller { height: 480px; line-height: 480px; } }   /* • Landscape */
+@media screen and (max-width:  567px) { .main_height_controller { height: 500px; line-height: 500px; } }   /* • Landscape */
+@media screen and (max-width:  479px) { .main_height_controller { height: 560px; line-height: 560px; } }   /* • Portrait */
+@media screen and (max-width:  413px) { .main_height_controller { height: 600px; line-height: 600px; } }   /* • Portrait */
+@media screen and (max-width:  374px) { .main_height_controller { height: 620px; line-height: 620px; } }   /* • Portrait */
+@media screen and (max-width:  319px) { .main_height_controller { height: 850px; line-height: 850px; } }   /* • Narrow */
+
+/* OLD STUFF */
+
+.style {
+    padding: 4px;
+}
+
