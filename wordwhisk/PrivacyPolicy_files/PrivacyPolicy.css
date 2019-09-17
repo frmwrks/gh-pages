@@ -1,0 +1,150 @@
+/* NEW STUFF */
+
+/* SCREEN SIZE */
+.main_height_controller {                                         height: 2300px; line-height: 2300px; }     /* • Landscape */
+@media screen and (max-width: 1365px) { .main_height_controller { height: 2430px; line-height: 2430px; } }   /* • Portrait */
+@media screen and (max-width: 1111px) { .main_height_controller { height: 2520px; line-height: 2520px; } }   /* • Portrait & Landscape */
+@media screen and (max-width: 1023px) { .main_height_controller { height: 2820px; line-height: 2820px; } }   /* • Landscape */
+@media screen and (max-width:  833px) { .main_height_controller { height: 2840px; line-height: 2840px; } }   /* • Landscape */
+@media screen and (max-width:  811px) { .main_height_controller { height: 2860px; line-height: 2860px; } }   /* • Portrait */
+@media screen and (max-width:  767px) { .main_height_controller { height: 2930px; line-height: 2930px; } }   /* • Landscape */
+@media screen and (max-width:  735px) { .main_height_controller { height: 3070px; line-height: 3070px; } }   /* • Landscape */
+@media screen and (max-width:  666px) { .main_height_controller { height: 3440px; line-height: 3440px; } }   /* • Landscape */
+@media screen and (max-width:  567px) { .main_height_controller { height: 3810px; line-height: 3810px; } }   /* • Landscape */
+@media screen and (max-width:  479px) { .main_height_controller { height: 4310px; line-height: 4310px; } }   /* • Portrait */
+@media screen and (max-width:  413px) { .main_height_controller { height: 4590px; line-height: 4590px; } }   /* • Portrait */
+@media screen and (max-width:  374px) { .main_height_controller { height: 5300px; line-height: 5300px; } }   /* • Portrait */
+@media screen and (max-width:  319px) { .main_height_controller { height: 6250px; line-height: 6250px; } }   /* • Narrow */
+
+/* Basic Styler */
+
+.style_section_title {
+    color: rgb(0, 0, 0);
+    font-family: 'Times-Bold', 'Times', 'Times New Roman', serif;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 23px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+
+.style_subsection_title {
+    color: rgb(0, 0, 0);
+    font-family: 'Times-Bold', 'Times', 'Times New Roman', serif;
+    font-size: 1.4em;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.2em;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 4px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+
+.style_minorsection_title {
+    color: rgb(0, 0, 0);
+    font-family: 'Times-Bold', 'Times', 'Times New Roman', serif;
+    font-size: 1.3em;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.0em;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 4px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+
+ul.style_bullet_title {
+    color: rgb(0, 0, 0);
+    font-family: 'Georgia', serif;
+    font-size: 1.4em;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.2em;
+    opacity: 1.00;
+    text-decoration: none;
+    text-transform: none;
+    /* HAH */
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-left: 22px;
+		list-style-type: circle;
+}
+
+.style_indented_definition {
+}
+
+
+
+/* OLD STUFF */
+
+.style {
+    padding: 4px;
+}
+.paragraph_style_2 {
+    color: rgb(255, 0, 0);
+    font-family: 'Times-Bold', 'Times', 'Times New Roman', serif;
+    font-size: 2.0em;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.0em;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 12px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.style_bold_word {
+    font-family: 'Times-Bold', 'Times', 'Times New Roman', serif;
+}
+.style_link {
+    line-height: 14px;
+}
+
