@@ -1,0 +1,191 @@
+/*
+If iPhone orientation is important, maybe add the following to @media:
+	and (orientation : portrait)
+	and (orientation : landscape)
+*/
+
+/* NEW */
+
+/* SCREEN SIZE */
+.main_height_controller {                                         height: 1048px; line-height: 1048px; }     /* • Landscape */
+@media screen and (max-width: 1365px) { .main_height_controller { height: 1048px; line-height: 1048px; } }   /* • Portrait */
+@media screen and (max-width: 1111px) { .main_height_controller { height: 1068px; line-height: 1068px; } }   /* • Portrait & Landscape */
+@media screen and (max-width: 1023px) { .main_height_controller { height: 1078px; line-height: 1078px; } }   /* • Landscape */
+@media screen and (max-width:  833px) { .main_height_controller { height: 1160px; line-height: 1160px; } }   /* • Landscape */
+@media screen and (max-width:  811px) { .main_height_controller { height: 1214px; line-height: 1214px; } }   /* • Portrait */
+@media screen and (max-width:  767px) { .main_height_controller { height: 1223px; line-height: 1223px; } }   /* • Landscape */
+@media screen and (max-width:  735px) { .main_height_controller { height: 1248px; line-height: 1248px; } }   /* • Landscape */
+@media screen and (max-width:  666px) { .main_height_controller { height: 1298px; line-height: 1298px; } }   /* • Landscape */
+@media screen and (max-width:  567px) { .main_height_controller { height: 1473px; line-height: 1473px; } }   /* • Landscape */
+@media screen and (max-width:  479px) { .main_height_controller { height: 1570px; line-height: 1570px; } }   /* • Portrait */
+@media screen and (max-width:  413px) { .main_height_controller { height: 1624px; line-height: 1624px; } }   /* • Portrait */
+@media screen and (max-width:  374px) { .main_height_controller { height: 1750px; line-height: 1750px; } }   /* • Portrait */
+@media screen and (max-width:  319px) { .main_height_controller { height: 2250px; line-height: 2250px; } }   /* • Narrow */
+
+.style_letters_shown {
+    color: rgb(100, 0, 0);
+    font-family: 'Courier', serif;
+    font-size: 1.6em;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.0em;
+    opacity: 1.00;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    /* HAH */
+    margin-bottom: 5px;
+    margin-top: -5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-left: 22px;
+}
+
+.style_bold_courier {
+    color: rgb(100, 0, 0);
+    font-family: 'Courier', serif;
+    font-size: 1.3em;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.0em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    opacity: 1.00;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: -10px;
+    text-transform: none;
+}
+
+.style_bold_times {
+    color: rgb(100, 0, 0);
+    font-family: 'Times', serif;
+    font-size: 1.3em;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.0em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    opacity: 1.00;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: -10px;
+    text-transform: none;
+}
+
+.style_indentation {
+    color: rgb(0, 0, 0);
+    font-family: 'Georgia', serif;
+    font-size: 1.4em;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.2em;
+    opacity: 1.00;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    text-indent: -10px;
+}
+
+span.blue {
+    color: rgb(4, 51, 255);
+}
+
+/* ORIGINAL */
+
+.style_quote {
+    color: rgb(113, 113, 113);
+    font-family: 'Georgia', serif;
+    font-size: 1em;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+
+.style_quote_author {
+    color: rgb(113, 113, 113);
+    font-family: 'Georgia', serif;
+    font-size: 0.77em;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 13px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: right;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+
+.style_bullet_list {
+	font-family: 'Georgia', serif;
+	font-size: 1.5em;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 1.3em;
+	text-decoration: none;
+	text-transform: none;
+	margin-bottom: 8px;
+}
+
+.style_bullet_term {
+	color: rgb(191, 86, 80);
+	font-family: 'Symbol';
+	font-size: 2.0em;
+	font-weight: 400;
+	margin-bottom: 0px;
+	text-decoration:none ;
+	text-transform:none ;
+	border: none;          
+	padding-left: 17px;
+	text-indent: -10px;
+}
+
+li.full-width {
+    width: 100;
+}
