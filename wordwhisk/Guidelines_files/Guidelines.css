@@ -1,0 +1,72 @@
+/* NEW STUFF */
+
+/* SCREEN SIZE */
+.main_height_controller {                                         height: 4460px; line-height: 4460px; }     /* • Landscape */
+@media screen and (max-width: 1365px) { .main_height_controller { height: 4490px; line-height: 4490px; } }   /* • Portrait */
+@media screen and (max-width: 1111px) { .main_height_controller { height: 4556px; line-height: 4556px; } }   /* • Portrait & Landscape */
+@media screen and (max-width: 1023px) { .main_height_controller { height: 4730px; line-height: 4730px; } }   /* • Landscape */
+@media screen and (max-width:  833px) { .main_height_controller { height: 4716px; line-height: 4716px; } }   /* • Landscape */
+@media screen and (max-width:  811px) { .main_height_controller { height: 4715px; line-height: 4715px; } }   /* • Portrait */
+@media screen and (max-width:  767px) { .main_height_controller { height: 4720px; line-height: 4720px; } }   /* • Landscape */
+@media screen and (max-width:  735px) { .main_height_controller { height: 4820px; line-height: 4820px; } }   /* • Landscape */
+@media screen and (max-width:  666px) { .main_height_controller { height: 4950px; line-height: 4950px; } }   /* • Landscape */
+@media screen and (max-width:  567px) { .main_height_controller { height: 5096px; line-height: 5096px; } }   /* • Landscape */
+@media screen and (max-width:  479px) { .main_height_controller { height: 5237px; line-height: 5237px; } }   /* • Portrait */
+@media screen and (max-width:  413px) { .main_height_controller { height: 5580px; line-height: 5580px; } }   /* • Portrait */
+@media screen and (max-width:  374px) { .main_height_controller { height: 5795px; line-height: 5795px; } }   /* • Portrait */
+@media screen and (max-width:  319px) { .main_height_controller { height: 6020px; line-height: 6020px; } }   /* • Narrow */
+
+#rcorners4 {
+	border-radius: 15px;
+	padding: 2px; 
+	height: 18px; 
+    text-align: center;
+}
+
+.w3-theme {
+	color:#fff !important;
+	background-color:#73AD21 !important;
+	background-color:#4CAF50 !important;
+}
+
+.button_indent {
+    margin-left: 30px;
+}
+
+.style_game_link {
+    font-family: 'Georgia', serif;
+}
+
+/* OLDSTUFF */
+
+a.class1 {
+    color: rgb(178, 23, 2);
+}
+a.class1:visited {
+    color: rgb(178, 23, 2);
+}
+a.class1:hover {
+    color: rgb(224, 133, 102);
+    text-decoration: underline;
+}
+a.class2 {
+    color: rgb(178, 23, 2);
+}
+a.class2:visited {
+    color: rgb(178, 23, 2);
+}
+a.class2:hover {
+    color: rgb(224, 133, 102);
+    text-decoration: underline;
+}
+a.class3 {
+    color: rgb(178, 23, 2);
+}
+a.class3:visited {
+    color: rgb(178, 23, 2);
+}
+a.class3:hover {
+    color: rgb(224, 133, 102);
+    text-decoration: underline;
+}
+
