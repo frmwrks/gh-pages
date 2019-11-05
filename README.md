@@ -1,5 +1,5 @@
 # frmwrks
-We love FindAWord!
+We love WordWhisk!
 😃
 
-[Tell me about FindAWord!](findaword/Welcome.html)
+[Tell me about WordWhisk!](wordwhisk/Welcome.html)
