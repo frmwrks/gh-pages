@@ -7,20 +7,20 @@ If iPhone orientation is important, maybe add the following to @media:
 /* NEW */
 
 /* SCREEN SIZE */
-.main_height_controller {                                         height: 1048px; line-height: 1048px; }     /* • Landscape */
-@media screen and (max-width: 1365px) { .main_height_controller { height: 1048px; line-height: 1048px; } }   /* • Portrait */
-@media screen and (max-width: 1111px) { .main_height_controller { height: 1068px; line-height: 1068px; } }   /* • Portrait & Landscape */
-@media screen and (max-width: 1023px) { .main_height_controller { height: 1078px; line-height: 1078px; } }   /* • Landscape */
-@media screen and (max-width:  833px) { .main_height_controller { height: 1160px; line-height: 1160px; } }   /* • Landscape */
-@media screen and (max-width:  811px) { .main_height_controller { height: 1214px; line-height: 1214px; } }   /* • Portrait */
-@media screen and (max-width:  767px) { .main_height_controller { height: 1223px; line-height: 1223px; } }   /* • Landscape */
-@media screen and (max-width:  735px) { .main_height_controller { height: 1248px; line-height: 1248px; } }   /* • Landscape */
-@media screen and (max-width:  666px) { .main_height_controller { height: 1298px; line-height: 1298px; } }   /* • Landscape */
-@media screen and (max-width:  567px) { .main_height_controller { height: 1473px; line-height: 1473px; } }   /* • Landscape */
-@media screen and (max-width:  479px) { .main_height_controller { height: 1570px; line-height: 1570px; } }   /* • Portrait */
-@media screen and (max-width:  413px) { .main_height_controller { height: 1624px; line-height: 1624px; } }   /* • Portrait */
-@media screen and (max-width:  374px) { .main_height_controller { height: 1750px; line-height: 1750px; } }   /* • Portrait */
-@media screen and (max-width:  319px) { .main_height_controller { height: 2250px; line-height: 2250px; } }   /* • Narrow */
+.main_height_controller {                                         height: 1148px; line-height: 1148px; }     /* Light blue - Portrait */
+@media screen and (max-width: 1365px) { .main_height_controller { height: 1148px; line-height: 1148px; } }   /* Bright green - Landscape */
+@media screen and (max-width: 1111px) { .main_height_controller { height: 1168px; line-height: 1168px; } }   /* Yellow - Portrait  */
+@media screen and (max-width: 1023px) { .main_height_controller { height: 1278px; line-height: 1278px; } }   /* Blue - Portrait & Landscape  */
+@media screen and (max-width:  833px) { .main_height_controller { height: 1290px; line-height: 1290px; } }   /* Bright red - Landscape */
+@media screen and (max-width:  811px) { .main_height_controller { height: 1314px; line-height: 1314px; } }   /* Bright cyan - Landscape */
+@media screen and (max-width:  767px) { .main_height_controller { height: 1333px; line-height: 1333px; } }   /* Red - Portrait  */
+@media screen and (max-width:  735px) { .main_height_controller { height: 1358px; line-height: 1358px; } }   /* Deep gray - Landscape */
+@media screen and (max-width:  666px) { .main_height_controller { height: 1428px; line-height: 1428px; } }   /* Bright blue - Landscape */
+@media screen and (max-width:  567px) { .main_height_controller { height: 1603px; line-height: 1603px; } }   /* Light gray - Landscape */
+@media screen and (max-width:  479px) { .main_height_controller { height: 1700px; line-height: 1700px; } }   /* Almost white - Landscape */
+@media screen and (max-width:  413px) { .main_height_controller { height: 1784px; line-height: 1784px; } }   /* Light green - Portrait  */
+@media screen and (max-width:  374px) { .main_height_controller { height: 1930px; line-height: 1930px; } }   /* Light yellow - Portrait  */
+@media screen and (max-width:  319px) { .main_height_controller { height: 2480px; line-height: 2480px; } }   /* Light pink - Portrait  */
 
 .style_letters_shown {
     color: rgb(100, 0, 0);
