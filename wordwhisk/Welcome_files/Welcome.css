@@ -7,20 +7,20 @@ If iPhone orientation is important, maybe add the following to @media:
 /* NEW */
 
 /* SCREEN SIZE */
-.main_height_controller {                                         height: 1248px; line-height: 1248px; }     /* Light blue - Portrait */
-@media screen and (max-width: 1365px) { .main_height_controller { height: 1248px; line-height: 1248px; } }   /* Bright green - Landscape */
-@media screen and (max-width: 1111px) { .main_height_controller { height: 1268px; line-height: 1268px; } }   /* Yellow - Portrait  */
-@media screen and (max-width: 1023px) { .main_height_controller { height: 1378px; line-height: 1378px; } }   /* Blue - Portrait & Landscape  */
-@media screen and (max-width:  833px) { .main_height_controller { height: 1390px; line-height: 1390px; } }   /* Bright red - Landscape */
-@media screen and (max-width:  811px) { .main_height_controller { height: 1414px; line-height: 1414px; } }   /* Bright cyan - Landscape */
-@media screen and (max-width:  767px) { .main_height_controller { height: 1433px; line-height: 1433px; } }   /* Red - Portrait  */
-@media screen and (max-width:  735px) { .main_height_controller { height: 1458px; line-height: 1458px; } }   /* Deep gray - Landscape */
-@media screen and (max-width:  666px) { .main_height_controller { height: 1528px; line-height: 1528px; } }   /* Bright blue - Landscape */
-@media screen and (max-width:  567px) { .main_height_controller { height: 1703px; line-height: 1703px; } }   /* Light gray - Landscape */
-@media screen and (max-width:  479px) { .main_height_controller { height: 1800px; line-height: 1800px; } }   /* Almost white - Landscape */
-@media screen and (max-width:  413px) { .main_height_controller { height: 1884px; line-height: 1884px; } }   /* Light green - Portrait  */
-@media screen and (max-width:  374px) { .main_height_controller { height: 2030px; line-height: 2030px; } }   /* Light yellow - Portrait  */
-@media screen and (max-width:  319px) { .main_height_controller { height: 2580px; line-height: 2580px; } }   /* Light pink - Portrait  */
+.main_height_controller {                                         height: 1180px; line-height: 1180px; }     /* Light blue - Portrait */
+@media screen and (max-width: 1365px) { .main_height_controller { height: 1180px; line-height: 1180px; } }   /* Bright green - Landscape */
+@media screen and (max-width: 1111px) { .main_height_controller { height: 1200px; line-height: 1200px; } }   /* Yellow - Portrait  */
+@media screen and (max-width: 1023px) { .main_height_controller { height: 1340px; line-height: 1340px; } }   /* Blue - Portrait & Landscape  */
+@media screen and (max-width:  833px) { .main_height_controller { height: 1360px; line-height: 1360px; } }   /* Bright red - Landscape */
+@media screen and (max-width:  811px) { .main_height_controller { height: 1380px; line-height: 1380px; } }   /* Bright cyan - Landscape */
+@media screen and (max-width:  767px) { .main_height_controller { height: 1380px; line-height: 1380px; } }   /* Red - Portrait  */
+@media screen and (max-width:  735px) { .main_height_controller { height: 1410px; line-height: 1410px; } }   /* Deep gray - Landscape */
+@media screen and (max-width:  666px) { .main_height_controller { height: 1470px; line-height: 1470px; } }   /* Bright blue - Landscape */
+@media screen and (max-width:  567px) { .main_height_controller { height: 1670px; line-height: 1670px; } }   /* Light gray - Landscape */
+@media screen and (max-width:  479px) { .main_height_controller { height: 1770px; line-height: 1770px; } }   /* Almost white - Landscape */
+@media screen and (max-width:  413px) { .main_height_controller { height: 1850px; line-height: 1850px; } }   /* Light green - Portrait  */
+@media screen and (max-width:  374px) { .main_height_controller { height: 2010px; line-height: 2010px; } }   /* Light yellow - Portrait  */
+@media screen and (max-width:  319px) { .main_height_controller { height: 2620px; line-height: 2620px; } }   /* Light pink - Portrait  */
 
 .style_letters_shown {
     color: rgb(100, 0, 0);
@@ -105,10 +105,6 @@ If iPhone orientation is important, maybe add the following to @media:
     text-transform: none;
     text-align: center;
     text-indent: -10px;
-}
-
-span.blue {
-    color: rgb(4, 51, 255);
 }
 
 /* ORIGINAL */
