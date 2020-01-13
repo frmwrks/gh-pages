@@ -254,6 +254,29 @@ ul.style_bullet {
     text-transform: none;
 }
 
+.style_inset_note {
+    color: rgb(0, 0, 0);
+    font-family: 'Georgia', serif;
+    font-size: 1.1em;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.1em;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    margin-right: 60px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 6px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+
 .style_wrap_up {
     color: rgb(80, 120, 256);
     font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
@@ -325,6 +348,11 @@ ol {
       text-indent:0;
       list-style-type:none ;
       list-style-image:none
+}
+
+/* Highlight text by showing purply. */
+span.highlight {
+    color: rgb(144, 51, 175);
 }
 
 .bumper {
