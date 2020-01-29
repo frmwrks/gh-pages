@@ -355,6 +355,19 @@ span.highlight {
     color: rgb(144, 51, 175);
 }
 
+/* Bold and red text. */
+.bold_red {
+    color: rgb(155, 0, 0);
+    font-weight: 1400;
+}
+
+/* Bold and green text. */
+.bold_green {
+    color: rgb(0, 155, 0);
+    font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
+    font-size: 1.5em;
+}
+
 .bumper {
     font-size: 1px;
     line-height: 1px;
@@ -406,6 +419,28 @@ a:hover {
     color: rgb(183, 97, 78);
     text-decoration: none;
 }
+
+/* BUTTONS FROM W3 */
+
+.w3-left-align{text-align:left!important}
+.w3-right-align{text-align:right!important}
+.w3-justify{text-align:justify!important}
+.w3-center{text-align:center!important}
+.w3-left{float:left!important}
+.w3-right{float:right!important}
+.w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.w3-green,.w3-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+
+/* .w3-button */
+.w3-button:hover{color:#000!important;background-color:#ccc!important}
+.w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
+.w3-dropdown-hover:hover > .w3-button:first-child,.w3-dropdown-click:hover > .w3-button:first-child{background-color:#ccc;color:#000}
+.w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
+.w3-bar .w3-button{white-space:normal}
+.w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{width:100%}}
+.w3-button:hover{color:#000!important;background-color:#ccc!important}
 
 /* DEBUGGING */
 
