@@ -1,20 +1,20 @@
 /* NEW STUFF */
 
 /* SCREEN SIZE */
-.main_height_controller {                                         height: 4830px; line-height: 4800px; }     /* Light blue - Portrait */
-@media screen and (max-width: 1365px) { .main_height_controller { height: 4880px; line-height: 4850px; } }   /* Bright green - Landscape */
-@media screen and (max-width: 1111px) { .main_height_controller { height: 4970px; line-height: 4940px; } }   /* Yellow - Portrait  */
-@media screen and (max-width: 1023px) { .main_height_controller { height: 5100px; line-height: 5070px; } }   /* Blue - Portrait & Landscape  */
-@media screen and (max-width:  833px) { .main_height_controller { height: 5100px; line-height: 5070px; } }   /* Bright red - Landscape */
-@media screen and (max-width:  811px) { .main_height_controller { height: 5100px; line-height: 5070px; } }   /* Bright cyan - Landscape */
-@media screen and (max-width:  767px) { .main_height_controller { height: 5130px; line-height: 5100px; } }   /* Red - Portrait  */
-@media screen and (max-width:  735px) { .main_height_controller { height: 5230px; line-height: 5200px; } }   /* Deep gray - Landscape */
-@media screen and (max-width:  666px) { .main_height_controller { height: 5380px; line-height: 5350px; } }   /* Bright blue - Landscape */
-@media screen and (max-width:  567px) { .main_height_controller { height: 5510px; line-height: 5480px; } }   /* Light gray - Landscape */
-@media screen and (max-width:  479px) { .main_height_controller { height: 5700px; line-height: 5670px; } }   /* Almost white - Landscape */
-@media screen and (max-width:  413px) { .main_height_controller { height: 6110px; line-height: 6080px; } }   /* Light green - Portrait  */
-@media screen and (max-width:  374px) { .main_height_controller { height: 6320px; line-height: 6290px; } }   /* Light yellow - Portrait  */
-@media screen and (max-width:  319px) { .main_height_controller { height: 6630px; line-height: 6600px; } }   /* Light pink - Portrait  */
+.main_height_controller {                                         height: 4830px; line-height: 4830px; }     /* Light blue - Portrait */
+@media screen and (max-width: 1365px) { .main_height_controller { height: 4880px; line-height: 4880px; } }   /* Bright green - Landscape */
+@media screen and (max-width: 1111px) { .main_height_controller { height: 4970px; line-height: 4970px; } }   /* Yellow - Portrait  */
+@media screen and (max-width: 1023px) { .main_height_controller { height: 5100px; line-height: 5100px; } }   /* Blue - Portrait & Landscape  */
+@media screen and (max-width:  833px) { .main_height_controller { height: 5100px; line-height: 5100px; } }   /* Bright red - Landscape */
+@media screen and (max-width:  811px) { .main_height_controller { height: 5100px; line-height: 5100px; } }   /* Bright cyan - Landscape */
+@media screen and (max-width:  767px) { .main_height_controller { height: 5130px; line-height: 5130px; } }   /* Red - Portrait  */
+@media screen and (max-width:  735px) { .main_height_controller { height: 5230px; line-height: 5230px; } }   /* Deep gray - Landscape */
+@media screen and (max-width:  666px) { .main_height_controller { height: 5380px; line-height: 5380px; } }   /* Bright blue - Landscape */
+@media screen and (max-width:  567px) { .main_height_controller { height: 5510px; line-height: 5510px; } }   /* Light gray - Landscape */
+@media screen and (max-width:  479px) { .main_height_controller { height: 5700px; line-height: 5700px; } }   /* Almost white - Landscape */
+@media screen and (max-width:  413px) { .main_height_controller { height: 6110px; line-height: 6110px; } }   /* Light green - Portrait  */
+@media screen and (max-width:  374px) { .main_height_controller { height: 6320px; line-height: 6320px; } }   /* Light yellow - Portrait  */
+@media screen and (max-width:  319px) { .main_height_controller { height: 6630px; line-height: 6630px; } }   /* Light pink - Portrait  */
 
 #rcorners4 {
 	border-radius: 15px;
