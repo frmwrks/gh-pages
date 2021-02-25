@@ -368,6 +368,11 @@ span.highlight {
     font-size: 1.5em;
 }
 
+.bold_green_regular {
+    color: rgb(0, 155, 0);
+    font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
+}
+
 .bumper {
     font-size: 1px;
     line-height: 1px;
@@ -388,6 +393,39 @@ span.highlight {
     display: inline-block;
     vertical-align: middle;
     margin-bottom: 0.3em;
+}
+
+/* GamesKeys special styles */
+
+.style_gameskeys {
+    color: rgb(0, 0, 0);
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.1em;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.1em;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 6px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+
+.style_gameskeys_red {
+    color: rgb(178, 0, 0);
+}
+
+.style_gameskeys_black {
+    color: rgb(0, 0, 0);
 }
 
 /* Actions */
