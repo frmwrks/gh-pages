@@ -7,20 +7,20 @@ If iPhone orientation is important, maybe add the following to @media:
 /* NEW */
 
 /* SCREEN SIZE */
-.main_height_controller {                                         height: 1390px; line-height: 1390px; }     /* Light blue - Portrait */
-@media screen and (max-width: 1365px) { .main_height_controller { height: 1390px; line-height: 1390px; } }   /* Bright green - Landscape */
-@media screen and (max-width: 1111px) { .main_height_controller { height: 1410px; line-height: 1410px; } }   /* Yellow - Portrait  */
-@media screen and (max-width: 1023px) { .main_height_controller { height: 1590px; line-height: 1590px; } }   /* Blue - Portrait & Landscape  */
-@media screen and (max-width:  833px) { .main_height_controller { height: 1610px; line-height: 1610px; } }   /* Bright red - Landscape */
-@media screen and (max-width:  811px) { .main_height_controller { height: 1630px; line-height: 1630px; } }   /* Bright cyan - Landscape */
-@media screen and (max-width:  767px) { .main_height_controller { height: 1650px; line-height: 1650px; } }   /* Red - Portrait  */
-@media screen and (max-width:  735px) { .main_height_controller { height: 1680px; line-height: 1680px; } }   /* Deep gray - Landscape */
-@media screen and (max-width:  666px) { .main_height_controller { height: 1790px; line-height: 1790px; } }   /* Bright blue - Landscape */
-@media screen and (max-width:  567px) { .main_height_controller { height: 2020px; line-height: 2020px; } }   /* Light gray - Landscape */
-@media screen and (max-width:  479px) { .main_height_controller { height: 2120px; line-height: 2120px; } }   /* Almost white - Landscape */
-@media screen and (max-width:  413px) { .main_height_controller { height: 2250px; line-height: 2250px; } }   /* Light green - Portrait  */
-@media screen and (max-width:  374px) { .main_height_controller { height: 2490px; line-height: 2490px; } }   /* Light yellow - Portrait  */
-@media screen and (max-width:  319px) { .main_height_controller { height: 3200px; line-height: 3200px; } }   /* Light pink - Portrait  */
+.main_height_controller {                                         height: 1430px; line-height: 1430px; }     /* Light blue - Portrait */
+@media screen and (max-width: 1365px) { .main_height_controller { height: 1430px; line-height: 1430px; } }   /* Bright green - Landscape */
+@media screen and (max-width: 1111px) { .main_height_controller { height: 1450px; line-height: 1450px; } }   /* Yellow - Portrait  */
+@media screen and (max-width: 1023px) { .main_height_controller { height: 1650px; line-height: 1650px; } }   /* Blue - Portrait & Landscape  */
+@media screen and (max-width:  833px) { .main_height_controller { height: 1670px; line-height: 1670px; } }   /* Bright red - Landscape */
+@media screen and (max-width:  811px) { .main_height_controller { height: 1690px; line-height: 1690px; } }   /* Bright cyan - Landscape */
+@media screen and (max-width:  767px) { .main_height_controller { height: 1720px; line-height: 1720px; } }   /* Red - Portrait  */
+@media screen and (max-width:  735px) { .main_height_controller { height: 1750px; line-height: 1750px; } }   /* Deep gray - Landscape */
+@media screen and (max-width:  666px) { .main_height_controller { height: 1870px; line-height: 1870px; } }   /* Bright blue - Landscape */
+@media screen and (max-width:  567px) { .main_height_controller { height: 2100px; line-height: 2100px; } }   /* Light gray - Landscape */
+@media screen and (max-width:  479px) { .main_height_controller { height: 2220px; line-height: 2220px; } }   /* Almost white - Landscape */
+@media screen and (max-width:  413px) { .main_height_controller { height: 2380px; line-height: 2380px; } }   /* Light green - Portrait  */
+@media screen and (max-width:  374px) { .main_height_controller { height: 2620px; line-height: 2620px; } }   /* Light yellow - Portrait  */
+@media screen and (max-width:  319px) { .main_height_controller { height: 3380px; line-height: 3380px; } }   /* Light pink - Portrait  */
 
 .style_letters_shown {
     color: rgb(100, 0, 0);
